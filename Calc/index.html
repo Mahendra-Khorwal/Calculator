@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="st">
+      <select id="theme" onchange="themes()">
+        <option value="THEME MODE">THEME MODE</option>
+        <option value="DARK MODE">DARK</option>
+        <option value="LIGHT MODE">LIGHT</option>
+      </select>
+    </div>
+    <marquee direction="down" scrollamount="1"><h1 class="head">Calculator</h1></marquee>
+    <!-- <h1 class="head">Calculator</h1> -->
+    <div id="calculator">
+      <div id="display"></div>
+      <div id="keyboard">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div class="green">+</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div class="green">-</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div class="green">*</div>
+        <div class="red">C</div>
+        <div>0</div>
+        <div class="green">=</div>
+        <div class="green">/</div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="script.js"></script>
